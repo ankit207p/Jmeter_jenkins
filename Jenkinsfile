@@ -5,6 +5,7 @@ pipeline {
             steps {
                 bat '''
                     copy TestCase01.jmx /tools/apache/bin
+                    cd /tools/apache/bin
                     dir .
                 '''
             }
