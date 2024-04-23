@@ -4,8 +4,8 @@ pipeline {
         stage('STAGE 1') {
             steps {
                 bat '''
-                    copy TestCase01.jmx /tools/apache/bin
-                    cd /tools/apache/bin
+                    copy TestCase01.jmx C:/Users/anshul.guleria/tools/apache/bin
+                    cd C:/Users/anshul.guleria/tools/apache/bin
                     dir .
                 '''
             }
