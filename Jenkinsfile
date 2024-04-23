@@ -1,12 +1,12 @@
 pipeline {
-    agent any 
+    agent none
     stages {
-        stage('Stage 1') {
-            steps {
-                D:
-                cd tools/apache/bin
-                dir .
+        stage('Example') {
+            agent any
             }
-         }
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
