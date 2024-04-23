@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('STAGE 1') {
             steps {
-                echo 'Hello World'
+                D:
+                cd tools/apache/bin
             }
         }
     }
