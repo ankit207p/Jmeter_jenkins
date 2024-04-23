@@ -5,7 +5,7 @@ pipeline {
             steps {
                 D:
                 cd tools/apache/bin
-                dir
+                dir .
                 }
         }
     }
