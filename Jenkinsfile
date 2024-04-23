@@ -1,12 +1,11 @@
 pipeline {
-    agent none
+    agent any
     stages {
-        stage('Example') {
-            agent any
-            }
+        stage('STAGE 1') {
             steps {
                 echo 'Hello World'
             }
         }
     }
+}
 
