@@ -6,7 +6,7 @@ pipeline {
                 D:
                 cd tools/apache/bin
                 dir .
-                }
             }
-        }
+         }
     }
+}
