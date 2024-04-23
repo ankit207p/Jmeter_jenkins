@@ -5,7 +5,7 @@ pipeline {
             steps {
                 D:
                 cd tools/apache/bin
-                jmeter -n -t TestCase01.jmx -l Report4.jtl
+                jmeter -n -t D:/tools/apache/bin/TestCase01.jmx -l D:/tools/apache/bin/Report4.jtl
             }
         }
     }
