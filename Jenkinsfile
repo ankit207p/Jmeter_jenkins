@@ -5,7 +5,7 @@ pipeline {
             steps {
                 bat '''
                     dir .
-                    copy TestCase01.jmx C:/apache/bin/
+                    copy TestCase01.jmx C:/apache/bin
                     cd C:/apache/bin
                     dir .
                 '''
