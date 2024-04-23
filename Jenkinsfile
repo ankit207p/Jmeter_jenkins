@@ -6,6 +6,7 @@ pipeline {
                 bat '''
                     cp TestCase01.jmx D:/tool/apache/bin
                     dir .
+                '''
             }
         }
     }
